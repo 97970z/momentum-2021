@@ -1,22 +1,57 @@
 const API_KEY = "4b3b273c4cb540d2461ecd59a5149716";
+const COORDS = "coords"; //좌표를 받을 변수
 
-function onGeoOk(position) {
-  const lat = position.coords.latitude;
-  const lng = position.coords.longitude;
+//DOM객체들
+const weatherInfo = document.querySelector(".weatherInfo");
+const weatherIconImg = document.querySelector(".weatherIcon");
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`;
-  fetch(url)
-    .then((Response) => Response.json())
-    .then((data) => {
-      const weather = document.querySelector("#weather span:first-child");
-      const city = document.querySelector("#weather span:last-child");
-      city.innerText = data.name;
-      weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
-    });
+//초기화
+function init() {
+  askForCoords();
 }
 
-function onGeoError() {
-  alert("위치를 찾을 수 없습니다.");
+//좌표를 물어보는 함수
+function askForCoords() {
+  navigator.geolocation.getCurrentPosition(handleSuccess, handleError);
 }
 
-navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+//좌표를 얻는데 성공했을 때 쓰이는 함수
+function handleSuccess(position) {
+  const latitude = position.coords.latitude;
+  const longitude = position.coords.longitude;
+  const coordsObj = {
+    latitude,
+    longitude,
+  };
+  getWeather(latitude, longitude); //얻은 좌표값을 바탕으로 날씨정보를 불러온다.
+}
+//좌표를 얻는데 실패했을 때 쓰이는 함수
+function handleError() {
+  console.log("can't not access to location");
+}
+
+//날씨 api를 통해 날씨에 관련된 정보들을 받아온다.
+function getWeather(lat, lon) {
+  fetch(
+    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=kr`
+  )
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (json) {
+      //온도, 위치, 날씨묘사, 날씨아이콘을 받는다.
+      const temperature = json.main.temp;
+      const place = json.name;
+      const weatherDescription = json.weather[0].description;
+      const weatherIcon = json.weather[0].icon;
+      const weatherIconAdrs = `http://openweathermap.org/img/wn/${weatherIcon}.png`;
+
+      //받아온 정보들을 표현한다.
+      weatherInfo.innerText = `${temperature} °C / @${place} / ${weatherDescription}`;
+      //weatherInfo.innerText = `${temperature} °C / ${weatherDescription}`;
+      weatherIconImg.setAttribute("src", weatherIconAdrs);
+    })
+    .catch((error) => console.log("error:", error));
+}
+
+init();
