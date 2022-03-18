@@ -3,6 +3,7 @@ const COORDS = "coords"; //좌표를 받을 변수
 
 //DOM객체들
 const weatherInfo = document.querySelector(".weatherInfo");
+const weatherInfo2 = document.querySelector(".weatherInfo2");
 const weatherIconImg = document.querySelector(".weatherIcon");
 
 //초기화

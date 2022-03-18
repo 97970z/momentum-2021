@@ -19,13 +19,6 @@ body{
   justify-content: center;
 }
 
-img {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100vh;
-}
-
 .todo {
   margin-top: 150px;
   display: flex;
@@ -33,8 +26,26 @@ img {
   align-items: center;
 }
 
+.todo input {
+  width: 170px;
+  height: 21px;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.todo input::placeholder{
+  color:honeydew;
+  opacity: 0.6;
+}
+.todo input:focus{
+  outline: none;
+}
+
 .todo h2 {
-  color: white;
+  color:honeydew;
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -49,19 +60,43 @@ img {
   margin-top: 7px;
 }
 
-input {
-  width: 170px;
-  height: 21px;
-  border-radius: 10px;
-  border-width: 0.5px;
-  font-weight: 600;
-  font-size: 12px;
-  text-align: center;
-  border: 1px solid whitesmoke;
-}
-
 input:focus::placeholder{
   opacity: 0%;
+}
+
+#bgImage {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+#greeting {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 50px;
+  color:snow;
+}
+
+#login-form input:first-child{
+  display: block;
+  margin-top: 150px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color:snow;
+  font-size: 30px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+#login-form input::placeholder{
+  color: azure;
+  opacity: 0.7;
+}
+#login-form input:focus{
+  outline: none;
+
 }
 
 #todo-list {
@@ -84,14 +119,14 @@ input:focus::placeholder{
 
 #today{
   font-size: 45px;
-  color: antiquewhite;
+  color:honeydew;
   margin-top: 150px;
   text-align: center;
 }
 
 #clock{
   font-size: 60px;
-  color: antiquewhite;
+  color:honeydew;
   margin-top: 15px;
   text-align: center;
 }
@@ -100,7 +135,7 @@ input:focus::placeholder{
   margin-top: 20px;
   font-size: 16px;
   font-weight: 200;
-  color: antiquewhite;
+  color:honeydew;
   text-align: center;
 }
 
@@ -133,8 +168,10 @@ input:focus::placeholder{
 #songName {
   font-size: 30px;
   margin-bottom: 5px;
+  color:honeydew;
 }
 
 #singer {
   text-align: center;
+  color:honeydew;
 }
