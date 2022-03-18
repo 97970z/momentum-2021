@@ -12,7 +12,10 @@
       <div class="todo">
         <h2>오늘의 할 일</h2>
         <form id="todo-form">
-          <input type="text" placeholder="이곳에 할 일을 적어보세요." required />
+          <input required type="text"
+            placeholder="할 일을 적어보세요."
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='할 일을 적어보세요.'"  />
         </form>
         <ul id="todo-list"></ul>
       </div>
@@ -24,11 +27,10 @@
           <span class="weatherInfo"></span>
           <img class="weatherIconImg"/>
         </div>
+
         <h2 id="today"></h2>
         <h1 id="clock"></h1>
 
-        
-        
         <form id="login-form" class="hidden">
           <input
             required
@@ -44,13 +46,24 @@
     </div>
 
     <div class="lastSpace">
-      <div class="music-box">
-        <div id="songName">곡 이름</div>
-        <div id="singer">부르는 사람</div>
-        <div class="music-control">
-          <button id="previousSong">|<</button>
-          <button id="btnPlay">></button>
-          <button id="nextSong">>|</button>
+      <div>
+        <div class="music-box">
+          <div id="songName">곡 이름</div>
+          <div id="singer">부르는 사람</div>
+          <div class="music-control">
+            <button id="previousSong">|<</button>
+            <button id="btnPlay">></button>
+            <button id="nextSong">>|</button>
+          </div>
+        </div>
+        <div class="d-dayCalc">
+          <h1>D-day 계산기</h1>
+          <form id="dayCalc">
+            <input id="date" type="date"/>
+            <input id="calc" type="button" value="확인">
+          </form>
+          <h2 id="setDay"></h2>
+          <h2 id="showDay"></h2>
         </div>
       </div>
     </div>
@@ -68,5 +81,6 @@
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/music.js"></script>
+    <script src="js/dday.js"></script>
   </body>
 </html>

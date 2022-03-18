@@ -17,6 +17,7 @@ function placing(controlNum) {
   const songArr = song.split("_");
   songName.innerHTML = songArr[1].split(".",1);
   singer.innerHTML = songArr[0];
+  btnPlay.innerText = ">";
 }
 
 let controlNum = 0;
