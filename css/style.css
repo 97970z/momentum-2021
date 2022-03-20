@@ -31,7 +31,7 @@ body{
   text-align: center;
   font-size: 50px;
   margin-top: 170px;
-  color:snow;
+  color:lightcyan;
 }
 
 #login-form input:first-child{
@@ -47,7 +47,7 @@ body{
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
 }
 #login-form input::placeholder{
-  color: azure;
+  color: lightcyan;
   opacity: 0.7;
 }
 #login-form input:focus{
@@ -68,14 +68,14 @@ body{
   height: 21px;
   font-weight: 600;
   font-size: 12px;
-  color:snow;
+  color:lightcyan;
   text-align: center;
   background: none;
   border: none;
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
 }
 .todo input::placeholder{
-  color:honeydew;
+  color:lightcyan;
   opacity: 0.6;
 }
 .todo input:focus{
@@ -83,7 +83,7 @@ body{
 }
 
 .todo h2 {
-  color:honeydew;
+  color:lightcyan;
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -96,8 +96,8 @@ body{
 #todo-list li {
   margin-top: 10px;
   text-align: center;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
-  color: snow;
+  border-bottom: 2px solid rgba(224, 255, 255, 0.7);
+  color: lightcyan;
 }
 
 #todo-list li button {
@@ -111,14 +111,14 @@ body{
 /* ======== clock ======== */
 #today{
   font-size: 45px;
-  color:honeydew;
+  color:lightcyan;
   margin-top: 130px;
   text-align: center;
 }
 
 #clock{
   font-size: 60px;
-  color:honeydew;
+  color:lightcyan;
   margin-top: 15px;
   text-align: center;
 }
@@ -128,8 +128,9 @@ body{
   margin-top: 20px;
   font-size: 16px;
   font-weight: 200;
-  color:honeydew;
+  color:lightcyan;
   text-align: center;
+  font-weight: bold;
 }
 
 /* ======== Quotes ======== */
@@ -169,22 +170,30 @@ body{
   margin-top: 7px;
 }
 
+.music-control button{
+  color: lightcyan;
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 #songName {
   text-align: center;
   width: 100%;
   font-size: 30px;
   margin-bottom: 5px;
-  color:honeydew;
+  color:lightcyan;
 }
 
 #singer {
   text-align: center;
-  color:honeydew;
+  color:lightcyan;
 }
 
 /* ======== D-day Calc ======== */
 .d-dayCalc {
-  color: snow;
+  color: lightcyan;
   margin-top: 190px;
   font-size: 30px;
   text-align: center;
@@ -200,16 +209,16 @@ body{
 
 .d-dayCalc #showDay {
   margin-top: 10px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid rgba(224, 255, 255, 0.7);
   padding-bottom: 5px;
 }
 
 #dayCalc #date {
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(224, 255, 255, 0.7);
 }
 
 #dayCalc #calc{
-  color: snow;
+  color: lightcyan;
   font-weight: bold;
   background: none;
   border: none;
