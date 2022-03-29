@@ -17,7 +17,6 @@ function placing(controlNum) {
   const songArr = song.split("_");
   songName.innerHTML = songArr[1].split(".",1);
   singer.innerHTML = songArr[0];
-  btnPlay.innerText = ">";
 }
 
 let controlNum = 0;
@@ -30,11 +29,9 @@ function playPause() {
   if (isitplay === false) {
     isitplay = true;
     myAudio.play();
-    btnPlay.innerText = "||";
   } else {
     isitplay = false;
     myAudio.pause();
-    btnPlay.innerText = ">";
   }
 }
 
