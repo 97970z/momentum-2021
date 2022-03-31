@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>ToDo</title>
+    <title>ToDo - List</title>
   </head>
   <body>
     <div class="firstSpace">
       <div class="todo">
         <h2>오늘의 할 일</h2>
         <form id="todo-form">
-          <input required type="text"
+          <input
+            required
+            type="text"
             placeholder="할 일을 적어보세요."
             onfocus="this.placeholder=''"
-            onblur="this.placeholder='할 일을 적어보세요.'"  />
+            onblur="this.placeholder='할 일을 적어보세요.'"
+          />
         </form>
         <ul id="todo-list"></ul>
       </div>
@@ -31,7 +38,7 @@
       <div>
         <div id="weather">
           <span class="weatherInfo"></span>
-          <img class="weatherIconImg"/>
+          <img class="weatherIconImg" />
         </div>
 
         <h2 id="today"></h2>
@@ -43,8 +50,10 @@
             maxlength="15"
             type="text"
             placeholder="What is your name?"
-            onfocus="this.placeholder=''";
-            onblur="this.placeholder='What is your name?'";
+            onfocus="this.placeholder=''"
+            ;
+            onblur="this.placeholder='What is your name?'"
+            ;
           />
         </form>
         <h1 id="greeting" class="hidden"></h1>
@@ -71,8 +80,8 @@
         <div class="d-dayCalc">
           <h1>D-day 계산기</h1>
           <form id="dayCalc">
-            <input id="date" type="date"/>
-            <input id="calc" type="button" value="확인">
+            <input id="date" type="date" />
+            <input id="calc" type="button" value="확인" />
           </form>
           <h2 id="setDay"></h2>
           <h2 id="showDay"></h2>
@@ -84,8 +93,7 @@
       <span></span>
       <span></span>
     </div>
-    
-    
+
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/background.js"></script>
