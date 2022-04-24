@@ -3,8 +3,8 @@
   display: none;
 }
 
-body{
-  font-family: 'Nunito', sans-serif;
+body {
+  font-family: "Nunito", sans-serif;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -12,7 +12,9 @@ body{
   color: azure;
 }
 
-.firstSpace, .middleSpace, .lastSpace {
+.firstSpace,
+.middleSpace,
+.lastSpace {
   z-index: 2;
   display: flex;
   width: 33%;
@@ -32,28 +34,27 @@ body{
   text-align: center;
   font-size: 50px;
   margin-top: 170px;
-  color:lightcyan;
+  color: lightcyan;
 }
 
-#login-form input:first-child{
+#login-form input:first-child {
   display: block;
   margin-top: 170px;
   padding-bottom: 10px;
   width: 100%;
   text-align: center;
-  color:snow;
+  color: snow;
   font-size: 30px;
   background: none;
   border: none;
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
 }
-#login-form input::placeholder{
+#login-form input::placeholder {
   color: lightcyan;
   opacity: 0.7;
 }
-#login-form input:focus{
+#login-form input:focus {
   outline: none;
-
 }
 
 /* ======== todo-list ======== */
@@ -69,22 +70,22 @@ body{
   height: 21px;
   font-weight: 600;
   font-size: 12px;
-  color:lightcyan;
+  color: lightcyan;
   text-align: center;
   background: none;
   border: none;
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
 }
-.todo input::placeholder{
-  color:lightcyan;
+.todo input::placeholder {
+  color: lightcyan;
   opacity: 0.6;
 }
-.todo input:focus{
+.todo input:focus {
   outline: none;
 }
 
 .todo h2 {
-  color:lightcyan;
+  color: lightcyan;
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -110,26 +111,26 @@ body{
 }
 
 /* ======== clock ======== */
-#today{
+#today {
   font-size: 45px;
-  color:lightcyan;
+  color: lightcyan;
   margin-top: 130px;
   text-align: center;
 }
 
-#clock{
+#clock {
   font-size: 60px;
-  color:lightcyan;
+  color: lightcyan;
   margin-top: 15px;
   text-align: center;
 }
 
 /* ======== weather ======== */
-#weather{
+#weather {
   margin-top: 20px;
   font-size: 16px;
   font-weight: 200;
-  color:lightcyan;
+  color: lightcyan;
   text-align: center;
   font-weight: bold;
 }
@@ -139,7 +140,7 @@ body{
   height: 20px;
   position: absolute;
   bottom: 80px;
-  text-align:left;
+  text-align: left;
 }
 
 #quote span {
@@ -162,16 +163,21 @@ body{
 }
 
 /* ======== Music box ======== */
-.music-box{
-  margin-top: 170px
+.music-box {
+  margin-top: 170px;
 }
 
-.music-control{
+.music-box h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.music-control {
   text-align: center;
   margin-top: 7px;
 }
 
-.music-control button{
+.music-control button {
   color: lightcyan;
   background: none;
   border: none;
@@ -188,18 +194,19 @@ body{
   width: 100%;
   font-size: 30px;
   margin-bottom: 5px;
-  color:lightcyan;
+  color: lightcyan;
 }
 
 #singer {
   text-align: center;
-  color:lightcyan;
+  color: lightcyan;
 }
 
 /* ======== D-day Calc ======== */
 .d-dayCalc {
+  height: 100px;
   color: lightcyan;
-  margin-top: 190px;
+  margin-top: 100px;
   font-size: 30px;
   text-align: center;
   display: flex;
@@ -222,10 +229,37 @@ body{
   border: 2px solid rgba(224, 255, 255, 0.7);
 }
 
-#dayCalc #calc{
+#dayCalc #calc {
   color: lightcyan;
   font-weight: bold;
   background: none;
   border: none;
-  margin-top: 20px
+  margin-top: 20px;
+}
+
+/* ======== Google Search ======== */
+
+.google-search {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+.google-search input {
+  color: snow;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  margin-top: 20px;
+}
+
+.google-search input::placeholder {
+  color: lightcyan;
+  font-size: 15px;
+  text-align: center;
+  opacity: 0.7;
+}
+.google-search input:focus {
+  outline: none;
 }

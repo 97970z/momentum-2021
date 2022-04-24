@@ -19,18 +19,20 @@
   </head>
   <body>
     <div class="firstSpace">
-      <div class="todo">
-        <h2>오늘의 할 일</h2>
-        <form id="todo-form">
-          <input
-            required
-            type="text"
-            placeholder="할 일을 적어보세요."
-            onfocus="this.placeholder=''"
-            onblur="this.placeholder='할 일을 적어보세요.'"
-          />
-        </form>
-        <ul id="todo-list"></ul>
+      <div>
+        <div class="todo">
+          <h2>오늘의 할 일</h2>
+          <form id="todo-form">
+            <input
+              required
+              type="text"
+              placeholder="할 일을 적어보세요."
+              onfocus="this.placeholder=''"
+              onblur="this.placeholder='할 일을 적어보세요.'"
+            />
+          </form>
+          <ul id="todo-list"></ul>
+        </div>
       </div>
     </div>
 
@@ -63,6 +65,7 @@
     <div class="lastSpace">
       <div>
         <div class="music-box">
+          <h1>MusicBox</h1>
           <div id="songName">곡 이름</div>
           <div id="singer">부르는 사람</div>
           <div class="music-control">
@@ -79,6 +82,25 @@
           </form>
           <h2 id="setDay"></h2>
           <h2 id="showDay"></h2>
+        </div>
+        <div class="google-search">
+          <h1>Google Search</h1>
+          <form
+            method="get"
+            action="http://www.google.co.kr/search"
+            target="_blank"
+          >
+            <input
+              type="text"
+              name="google"
+              maxlength="255"
+              placeholder="Google Search"
+              onfocus="this.placeholder=''"
+              ;
+              onblur="this.placeholder='Google Search'"
+              ;
+            />
+          </form>
         </div>
       </div>
     </div>
