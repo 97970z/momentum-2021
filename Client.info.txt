@@ -1,0 +1,458 @@
+[
+  {
+    "h": "b3ddba2be4d37ceda838d765bd98200f",
+    "n": "\\Jin64.dll"
+  },
+  {
+    "h": "48f02661bc17a1ca7eb854fa6b340e21",
+    "n": "\\NGMDll64.dll"
+  },
+  {
+    "h": "8a65d54244429e905599fbf8c9b63836",
+    "n": "\\MapleStory.exe"
+  },
+  {
+    "h": "e698193fcccf2a3916af552eabf29fed",
+    "n": "\\MapleStory.ini"
+  },
+  {
+    "h": "345e4c2de6bd9c11c0ad3500d9622096",
+    "n": "\\nps64.dll"
+  },
+  {
+    "h": "748200d4d817fe1c526334913917b8d3",
+    "n": "\\Royal.Secure.Runtime.dll"
+  },
+  {
+    "h": "e8613bad7cdf8f024a15a268f9665349",
+    "n": "\\Data\\String\\String_000.wz"
+  },
+  {
+    "h": "52f46dfc988bb2ad0a58d86fa2ef2f9f",
+    "n": "\\Data\\Item\\Item_000.wz"
+  },
+  {
+    "h": "3fdfa2321e4193e8c305c87c8d390a9c",
+    "n": "\\Data\\Item\\Consume\\Consume_000.wz"
+  },
+  {
+    "h": "60ee1f5a44753de9d181baf1d1996489",
+    "n": "\\Data\\Character\\Character_000.wz"
+  },
+  {
+    "h": "9abbb83552978f9e7a039126d41e9d88",
+    "n": "\\Data\\Character\\Accessory\\Accessory_000.wz"
+  },
+  {
+    "h": "65ff851e90f39099ff7f22af7b9710bc",
+    "n": "\\Data\\Character\\Afterimage\\Afterimage_000.wz"
+  },
+  {
+    "h": "346b5ffb8c19c0286f32478ad5ea2d41",
+    "n": "\\Data\\Character\\Android\\Android_000.wz"
+  },
+  {
+    "h": "6aa4847ac1aa968a897b04943ccd1e1e",
+    "n": "\\Data\\Character\\Bits\\Bits_000.wz"
+  },
+  {
+    "h": "69af46ab90403a724ac39e526f1cd1fb",
+    "n": "\\Data\\Character\\Cap\\Cap_000.wz"
+  },
+  {
+    "h": "1c8d9d78671cabba421ca5317520541e",
+    "n": "\\Data\\Character\\Cape\\Cape_000.wz"
+  },
+  {
+    "h": "aface523846b2a5a31c4a9cc7caf148d",
+    "n": "\\Data\\Character\\Coat\\Coat_000.wz"
+  },
+  {
+    "h": "6ced6b574e81da46d1a017733661af27",
+    "n": "\\Data\\Character\\Face\\Face_000.wz"
+  },
+  {
+    "h": "4d5893d92a3048aa2171311787a9ec92",
+    "n": "\\Data\\Character\\Glove\\Glove_000.wz"
+  },
+  {
+    "h": "3578b8105765d7daa015a85072840f32",
+    "n": "\\Data\\Character\\Hair\\Hair_000.wz"
+  },
+  {
+    "h": "581532aa589b211d328514476b112c45",
+    "n": "\\Data\\Character\\Hair\\Hair_001.wz"
+  },
+  {
+    "h": "2b582c1ba37dc4fdbe5827df89d3b529",
+    "n": "\\Data\\Character\\Longcoat\\Longcoat_000.wz"
+  },
+  {
+    "h": "e7339441ce7719821d642d174564164a",
+    "n": "\\Data\\Character\\Pants\\Pants_000.wz"
+  },
+  {
+    "h": "8996f18bfca86d34e15ba8b0d4bf422a",
+    "n": "\\Data\\Character\\PetEquip\\PetEquip_000.wz"
+  },
+  {
+    "h": "3c988614c0f52eb2a5b2b7c3cff4bf02",
+    "n": "\\Data\\Character\\Ring\\Ring_000.wz"
+  },
+  {
+    "h": "5fd7c62d19ee9837eab05e8fdfb91828",
+    "n": "\\Data\\Character\\Shield\\Shield_000.wz"
+  },
+  {
+    "h": "11a79035f3d5d1f879f5ec3b357411ac",
+    "n": "\\Data\\Character\\Shoes\\Shoes_000.wz"
+  },
+  {
+    "h": "66ec4ae8f0059a5e27c5656ed75e55bc",
+    "n": "\\Data\\Character\\Weapon\\Weapon_000.wz"
+  },
+  {
+    "h": "b80f090402a87b5702e53ad1dbd63e10",
+    "n": "\\Data\\Character\\Weapon\\Weapon_001.wz"
+  },
+  {
+    "h": "6199b175b7434ee65f66489e6b699167",
+    "n": "\\Data\\Character\\Weapon\\Weapon_002.wz"
+  },
+  {
+    "h": "489a94e8ee2d2406e8b723a9ccc159d6",
+    "n": "\\Data\\Etc\\Etc_000.wz"
+  },
+  {
+    "h": "44d78f9725090c26553d4c455ce05329",
+    "n": "\\Data\\Etc\\Etc_001.wz"
+  },
+  {
+    "h": "b66c87c78def611de4ff2a6209b2e98e",
+    "n": "\\Data\\Etc\\Etc_002.wz"
+  },
+  {
+    "h": "b69ac3377d0180a94f7795844ae99648",
+    "n": "\\Data\\Etc\\Etc_003.wz"
+  },
+  {
+    "h": "a58f4b6def47ac446ab29f5b0abe0119",
+    "n": "\\Data\\Etc\\Etc_004.wz"
+  },
+  {
+    "h": "bd816304df87231b261f0e7f9bfb0163",
+    "n": "\\Data\\Etc\\Achievement\\Achievement_000.wz"
+  },
+  {
+    "h": "fb711e627740ad8daa31763ec6624e6b",
+    "n": "\\Data\\Etc\\Achievement\\AchievementData\\AchievementData_000.wz"
+  },
+  {
+    "h": "abbb3dd495e1e0bea14d4186e5a87f47",
+    "n": "\\Data\\Etc\\Android\\Android_000.wz"
+  },
+  {
+    "h": "6a9d3da9a2c8cdbc285a9524203f0f72",
+    "n": "\\Data\\Mob\\Mob_000.wz"
+  },
+  {
+    "h": "f8c3c8688cb4043e413544587f38e755",
+    "n": "\\Data\\Mob\\Mob_001.wz"
+  },
+  {
+    "h": "d336bd2c991225dd80272c53da238e0f",
+    "n": "\\Data\\Mob\\Mob_002.wz"
+  },
+  {
+    "h": "cc9c8e53d622f5eff3fe86934440aa8c",
+    "n": "\\Data\\Mob\\Mob_003.wz"
+  },
+  {
+    "h": "8b93364c89c72bceac8cff896d23b134",
+    "n": "\\Data\\Mob\\Mob_004.wz"
+  },
+  {
+    "h": "df90321b8d21c0f4f4949e5f195da0fb",
+    "n": "\\Data\\Mob\\Mob_005.wz"
+  },
+  {
+    "h": "70cb650b280b431e27ce7c98387879d5",
+    "n": "\\Data\\Mob\\Mob_006.wz"
+  },
+  {
+    "h": "7a97ae754a8f864fbcfd9376ea53f79a",
+    "n": "\\Data\\Mob\\Mob_007.wz"
+  },
+  {
+    "h": "d7930a93296085d76ed2435c7ab5e86c",
+    "n": "\\Data\\Mob\\Mob_008.wz"
+  },
+  {
+    "h": "641d2f36a81f14de9f6cd53239d07816",
+    "n": "\\Data\\Mob\\Mob_009.wz"
+  },
+  {
+    "h": "ecd2fbab527ce735e2e4737a8b0db424",
+    "n": "\\Data\\Mob\\Mob_010.wz"
+  },
+  {
+    "h": "529a0645c492313d84243356f5a893b4",
+    "n": "\\Data\\Mob\\Mob_011.wz"
+  },
+  {
+    "h": "26494568296550a3d9e79dd31ec6bffd",
+    "n": "\\Data\\Mob\\Mob_012.wz"
+  },
+  {
+    "h": "3dde3a581ac7c384325aae5defe14cef",
+    "n": "\\Data\\Mob\\Mob_013.wz"
+  },
+  {
+    "h": "23551552fb26d31d0e74dfe9f15ca97e",
+    "n": "\\Data\\Mob\\Mob_014.wz"
+  },
+  {
+    "h": "45c8326890497aec3b5dfd2464918226",
+    "n": "\\Data\\Mob\\Mob_015.wz"
+  },
+  {
+    "h": "fe5a9e7db50f7970f22a04ff1ba150f5",
+    "n": "\\Data\\Mob\\Mob_016.wz"
+  },
+  {
+    "h": "8623fb07776f5950f11a7981855fb618",
+    "n": "\\Data\\Mob\\Mob_017.wz"
+  },
+  {
+    "h": "cf4c20b595d66ccaaea17977312cf646",
+    "n": "\\Data\\Mob\\Mob_018.wz"
+  },
+  {
+    "h": "8d4f0b7bdcb9af8a921099169584a9de",
+    "n": "\\Data\\Mob\\Mob_019.wz"
+  },
+  {
+    "h": "58a12c01db50130a11b6695b8c7b0b94",
+    "n": "\\Data\\Mob\\Mob_020.wz"
+  },
+  {
+    "h": "acce23174ed3d8977edf3539c0f7f883",
+    "n": "\\Data\\Mob\\Mob_021.wz"
+  },
+  {
+    "h": "02bb9dbb28a2829b19a2acc302816b37",
+    "n": "\\Data\\Mob\\Mob_022.wz"
+  },
+  {
+    "h": "537cc9b2b2154b91d75a75562a2cee44",
+    "n": "\\Data\\Mob\\Mob_023.wz"
+  },
+  {
+    "h": "64961ead2a6b2b1bc95eedd7f01e9663",
+    "n": "\\Data\\Mob\\Mob_024.wz"
+  },
+  {
+    "h": "b0daf8c364b8b74d0c3b7502be4e976e",
+    "n": "\\Data\\Mob\\Mob_025.wz"
+  },
+  {
+    "h": "c242ea71cdbd2702342b21f1fdc982c5",
+    "n": "\\Data\\Mob\\Mob_026.wz"
+  },
+  {
+    "h": "6239037d84f7132cf135557f70632243",
+    "n": "\\Data\\Mob\\Mob_027.wz"
+  },
+  {
+    "h": "7e7a0fc31cd43ead24a54a99a3363b5a",
+    "n": "\\Data\\Mob\\Mob_028.wz"
+  },
+  {
+    "h": "ed81abdc3e90344e05dbea275b6d5f37",
+    "n": "\\Data\\Mob\\Mob_029.wz"
+  },
+  {
+    "h": "b0177c9c66f5a468e136aa1ec5efdda0",
+    "n": "\\Data\\Mob\\Mob_030.wz"
+  },
+  {
+    "h": "7d29d9fedfa51751f3bf4e37687baf13",
+    "n": "\\Data\\Mob\\Mob_031.wz"
+  },
+  {
+    "h": "f21cfa459b0f64ad11dd65b1bb8ed454",
+    "n": "\\Data\\Mob\\Mob_032.wz"
+  },
+  {
+    "h": "caf5944e47ef21687561b34ff9388560",
+    "n": "\\Data\\Mob\\Mob_033.wz"
+  },
+  {
+    "h": "8c416f45337a0845aa6093a643c1bb72",
+    "n": "\\Data\\Skill\\Skill_000.wz"
+  },
+  {
+    "h": "4e504bf9fc0d82b6986606eb61b2243c",
+    "n": "\\Data\\Skill\\Skill_001.wz"
+  },
+  {
+    "h": "7596b08b8a3baaef45cf229a1cfe8365",
+    "n": "\\Data\\Skill\\Skill_002.wz"
+  },
+  {
+    "h": "7eabbb18a3360fcc687e7bdbe4b23c1d",
+    "n": "\\Data\\Skill\\Skill_003.wz"
+  },
+  {
+    "h": "c5cf802edced0d2c5ca73221cf120aa0",
+    "n": "\\Data\\Skill\\Skill_004.wz"
+  },
+  {
+    "h": "6a437e2cc4b2ab152cbd2869a1bc79ff",
+    "n": "\\Data\\Skill\\Skill_005.wz"
+  },
+  {
+    "h": "4878aed355bd9cfd868581e8f1b43271",
+    "n": "\\Data\\Skill\\Skill_006.wz"
+  },
+  {
+    "h": "cb4dfef8f4ca60224cce196d92ecf8c4",
+    "n": "\\Data\\Skill\\Skill_007.wz"
+  },
+  {
+    "h": "e64616c6898a829ac3e6f9cfec012f57",
+    "n": "\\Data\\Skill\\Skill_008.wz"
+  },
+  {
+    "h": "4062f90c85c12b33ce7134027c4a1d05",
+    "n": "\\Data\\Skill\\Skill_009.wz"
+  },
+  {
+    "h": "866b3687480bbfebb93beffca04c9d92",
+    "n": "\\Data\\Skill\\Skill_010.wz"
+  },
+  {
+    "h": "3009a61ce14d92acf33563d15f0b77d4",
+    "n": "\\Data\\Skill\\Skill_011.wz"
+  },
+  {
+    "h": "bc8d2bf86e7d7d88c9525a74f2b2aaf7",
+    "n": "\\Data\\Skill\\Skill_012.wz"
+  },
+  {
+    "h": "75b22a157ef7ecd13de45f3156a2f19c",
+    "n": "\\Data\\Skill\\Skill_013.wz"
+  },
+  {
+    "h": "874bf1e954cadaa79eb514b4a0544a3d",
+    "n": "\\Data\\Skill\\Skill_014.wz"
+  },
+  {
+    "h": "3508f7e38191beab28f773a79f00a4c0",
+    "n": "\\Data\\Skill\\Skill_015.wz"
+  },
+  {
+    "h": "0d4f8886f144a34355f78b15539e5a0b",
+    "n": "\\Data\\Skill\\Skill_016.wz"
+  },
+  {
+    "h": "b5ba4756e82c363c8d44449133268f83",
+    "n": "\\Data\\Skill\\Skill_017.wz"
+  },
+  {
+    "h": "74fdb06d39df4ff32c61494d960c3dac",
+    "n": "\\Data\\Skill\\Skill_018.wz"
+  },
+  {
+    "h": "f9839bd70e7c7563f3eb13a05aa1acc5",
+    "n": "\\Data\\Skill\\Skill_019.wz"
+  },
+  {
+    "h": "69f325594b6445780bc65993de8076e3",
+    "n": "\\Data\\Skill\\Skill_020.wz"
+  },
+  {
+    "h": "26489308fef1ee911ec15c9029a8b3f2",
+    "n": "\\Data\\Skill\\Skill_021.wz"
+  },
+  {
+    "h": "f7f6ff4b427f8ddab6d7683a694e05fd",
+    "n": "\\Data\\Skill\\Skill_022.wz"
+  },
+  {
+    "h": "dc75dbf975ce548892e08923c56799c1",
+    "n": "\\Data\\Skill\\Skill_023.wz"
+  },
+  {
+    "h": "7433e6760e0c9db6a7957ee48822d5ae",
+    "n": "\\Data\\Skill\\Skill_024.wz"
+  },
+  {
+    "h": "74b6f91996c390c3915d16f13d236bbb",
+    "n": "\\Data\\Skill\\Skill_025.wz"
+  },
+  {
+    "h": "30d15e2bf5030f704cd7cccb0be78239",
+    "n": "\\Data\\Skill\\Skill_026.wz"
+  },
+  {
+    "h": "157b45753d0c711176008b4fe5b67c75",
+    "n": "\\Data\\Skill\\Skill_027.wz"
+  },
+  {
+    "h": "b505cbfa0f87ca512dc88ba5c87e0c76",
+    "n": "\\Data\\Skill\\Skill_028.wz"
+  },
+  {
+    "h": "d0766eeda316b4e5df099bb14ebf7f62",
+    "n": "\\Data\\Skill\\Skill_029.wz"
+  },
+  {
+    "h": "10d824e393c371c3a147434b1c2fbb21",
+    "n": "\\Data\\Skill\\Skill_030.wz"
+  },
+  {
+    "h": "17fd5bdb738c653a8fbdea6d8675ae7b",
+    "n": "\\Data\\Skill\\Skill_031.wz"
+  },
+  {
+    "h": "22986a7d5a4d8ef1296aeba0ca67845b",
+    "n": "\\Data\\Skill\\Skill_032.wz"
+  },
+  {
+    "h": "718a4654a13e53fe839410a5f8cfb9f0",
+    "n": "\\Data\\Skill\\Skill_033.wz"
+  },
+  {
+    "h": "2e011a8e4a29f9654cc7cc289f362ec9",
+    "n": "\\Data\\Skill\\Skill_034.wz"
+  },
+  {
+    "h": "6313a00b8118b5aa5ba3208698a4f77d",
+    "n": "\\Data\\Skill\\Dragon\\Dragon_000.wz"
+  },
+  {
+    "h": "aac8b07947dffe8c91f5b075425a9e49",
+    "n": "\\Data\\Skill\\MobSkill\\MobSkill_000.wz"
+  },
+  {
+    "h": "509380604d765d7fb07d9f14980b0dfa",
+    "n": "\\Data\\Skill\\MobSkill\\MobSkill_001.wz"
+  },
+  {
+    "h": "45ed7d38162b1f5d73dbdde0fb9ac90e",
+    "n": "\\Data\\UI\\UI_000.wz"
+  },
+  {
+    "h": "d80c6358a59a3c24300684df8ac02e77",
+    "n": "\\Data\\UI\\UI_003.wz"
+  },
+  {
+    "h": "533615f53c4efe28990c36ff085c8e24",
+    "n": "\\Data\\UI\\UI_005.wz"
+  },
+  {
+    "h": "a5770a0d82cdf017aa96846f2b89ef66",
+    "n": "\\Data\\UI\\UI_001.wz"
+  }
+]
